@@ -1,0 +1,44 @@
+body {margin:0px;padding:0px;}
+
+.ordenable { 
+	width: 100%;
+	overflow: hidden;
+}
+.contenedor-swipe {
+	height: 30px;
+	border-bottom: 1px solid #222222;
+	width: calc(100% + 60px); 
+	position: relative;
+	left: -30px;
+	cursor: pointer;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+}
+
+.swipe-div  {
+	width: 30px;
+	height: 100%;
+	position: relative;
+}
+
+.swipe-right {
+	background-color: #268A44;
+	border-right: 1px solid #777777;
+	float:left;
+}
+
+.swipe-left {
+	background-color: #3699FF;
+	border-left: 1px solid #777777;
+	float:right;
+}
+
+.swipe-center {
+	height: 100%;
+	text-align: center;
+	width: calc(100% - 62px);
+	overflow: hidden;
+	position: relative;
+	float:left;
+}

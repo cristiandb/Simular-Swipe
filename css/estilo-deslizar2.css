@@ -1,0 +1,41 @@
+.ordenable { 
+	width: 200px;
+	overflow: hidden;
+}
+.contenedor-swipe {
+	height: 30px;
+	border-bottom: 1px solid #222222;
+	width: 260px; 
+	position: relative;
+	left: -30px;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+}
+
+.swipe-div  {
+	width: 30px;
+	height: 100%;
+	position: relative;
+}
+
+.swipe-right {
+	background-color: #268A44;
+	border-right: 1px solid #777777;
+	float:left;
+}
+
+.swipe-left {
+	background-color: #3699FF;
+	border-left: 1px solid #777777;
+	float:right;
+}
+
+.swipe-center {
+	height: 100%;
+	text-align: center;
+	width: 198px;
+	overflow: hidden;
+	position: relative;
+	float:left;
+}
